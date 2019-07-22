@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Ejercicio Repositorio v2</string>
+
+    //daniel
+    <string name="Preguntas">Comprueva tu Conocimiento</string>
+    <string name="Pregunta1">¿Cual es el tercer planeta al Rededor del Sol?</string>
 </resources>
