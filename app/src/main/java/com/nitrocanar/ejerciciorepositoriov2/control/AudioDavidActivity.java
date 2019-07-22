@@ -20,7 +20,7 @@ import java.io.IOException;
 
 public class AudioDavidActivity extends AppCompatActivity {
 
-    private Button btnStart, btnStop, btnRecord;
+    private Button btnStart, btnStop, btnRecord, btnStop2;
     private TextView tvMensaje;
 
     private static final String LOG_TAG = "AudioRecord";
@@ -161,6 +161,14 @@ public class AudioDavidActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 onRecord(true);
+            }
+        });
+
+        btnStop2 = findViewById(R.id.btnStopP);
+        btnStop2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                stopPlaying();
             }
         });
 
