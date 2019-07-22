@@ -4,4 +4,8 @@
     //daniel
     <string name="Preguntas">Comprueva tu Conocimiento</string>
     <string name="Pregunta1">¿Cual es el tercer planeta al Rededor del Sol?</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="play">Play</string>
+    <string name="record">Record</string>
 </resources>
