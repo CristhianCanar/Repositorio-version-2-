@@ -7,12 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.nitrocanar.ejerciciorepositoriov2.Daniel;
 import com.nitrocanar.ejerciciorepositoriov2.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Intent intent;
-    private Button btnDavid;
+    private Button btnDavid,btnDaniel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btnDavid = findViewById(R.id.btnDavid);
         btnDavid.setOnClickListener(this);
+        btnDaniel = findViewById(R.id.btnDaniel);
+        btnDaniel.setOnClickListener(this);
 
     }
 
@@ -43,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btnDaniel:
 
-                Intent llever = new Intent(getApplicationContext(),Daniel.class);
+                Intent llever = new Intent(getApplicationContext(), Daniel.class);
                 startActivity(llever);
 
                 break;

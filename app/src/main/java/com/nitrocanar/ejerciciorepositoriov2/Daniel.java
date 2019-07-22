@@ -22,7 +22,7 @@ public class Daniel extends AppCompatActivity {
     Button btn_g;
     TextView pregunta;
     private static final int permiso = 100;
-    EditText solucion;
+    TextView solucion;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
